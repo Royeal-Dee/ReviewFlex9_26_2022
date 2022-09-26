@@ -1,0 +1,55 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+  html {
+  font-size: 50px;
+  }
+
+  .great-gpa {
+  font-size: 100px;
+  }
+
+  .parent {
+  font-size: 25px;
+  }
+
+  .parent .hoverable {
+  font-size: .5em;
+  }
+
+.navbar {
+  height: 60px;
+  background-color: black;
+  color:white;
+  display: flex;
+  align-items: center;
+  padding-left: 25px;
+}
+
+.content-container {
+  display: flex;
+  height: calc(100vh - 60px);
+}
+
+.content-container .login-left {
+  width: 50vw;
+}
+
+.content-container .login-left img {
+  height: 100%;
+  width: 100%;  
+}
+
+.content-container .login-right {
+  display: flex;
+  align-self: center;
+  align-items: center;
+}
+
+.content-container .login-right .login form h1 {
+  font-family: "Noto"
+}
