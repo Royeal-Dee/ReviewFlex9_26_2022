@@ -46,8 +46,16 @@ html, body {
 
 .content-container .login-right {
   display: flex;
-  align-self: center;
+  justify-content: center;
   align-items: center;
+  width: 50vw;
+}
+
+.content-container .login-right .login-form {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
 }
 
 .content-container .login-right .login form h1 {
